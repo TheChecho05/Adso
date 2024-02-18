@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="Registros.css">
+    <script src="Registro.js"></script>
+</head>
+
+<body>
+
+    <div class="Fondo">
+        <div class="contenedor">
+            <h1>Registro para Adso</h1>
+            <input class="Caja" type="text" id="name" placeholder="Ingrese su Nombre">
+            <input class="Caja" type="text" id="lastname" placeholder="Ingrese su Apellido">
+            <h3>Tipo de Documento:</h3>
+            <select class="Caja" name="tipodoc" id="doc" value="Tipo de documento">
+                <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                <option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
+                <option value="Pasaporte">Pasaporte</option>
+                <option value="Cedula de extrangeria">Cedula de extrangeria</option>
+            </select>
+            <input class="Caja" type="number" id="numdoc" placeholder="Numero de Documento">
+            <h3>Genero:</h3>
+            <select class="Caja" name="genero" id="gen" value="Genero:">
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+            </select>
+            <input type="number" id="numtel" class="Caja" placeholder="Numero de Telefono">
+            <input type="email" id="correo" class="Caja" placeholder="Correo@">
+            <h3>Fecha de Nacimiento<input type="date" id="fecha" class="Caja" placeholder="Numero de Telefono"></h3>
+
+            <input class="boto" type="button" id="boton1" value="enviar" onclick="enviar()">
+        </div>
+    </div>
+        
+</body>
+
+</html>
