@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ticket.css">
+    <script src="ticket.js"></script>
+</head>
+<body>
+    <div class="fondo">
+        <input type="button" class="botonregresar" id="boton1" value="Volver al Inicio" onclick="regresar()"></input>
+        <div class="tomarturno">
+            <div class="pegar">
+            <h1 class="h1">Por favor, tome un turno </h1>
+            <img src="imagenes4/ticket.png" class="foto1" alt="">
+            </div>
+            <div>
+            <input type="button" class="botones" id="boton1" value="Tomar turno" onclick="turno()"></input>
+            </div>
+            <div class="cont">
+                <h1 class="palabratur">Turno:</h1>
+                <h1 class="resultado" id="sumar">0</h1>
+            </div>
+        </div>
+        <div class="turnosdiv">
+            <table class="table" id="tabla"> 
+                <thead> 
+                    <tr>
+                        <th class="head1">Turno</th>
+                        <th class="head2">Confirmar/Rechazar</th>
+                    </tr>
+                </thead>
+                <tbody id="turnos">
+                
+                </tbody>
+            </table>
+        </div>
+        <div class="turnoactual">
+            <h1 class="pequeño">Turno actual:</h1>
+            <h2 class="grandes" id="grande" >0</h2>
+            <div class="pegar">
+                <img class="imagen1" id="imagen1" onclick="restar()" src="imagenes4/atras.png" alt="">
+                <img class="imagen1" id="imagen2" onclick="sumar()" src="imagenes4/adelantar.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

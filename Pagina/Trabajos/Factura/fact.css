@@ -1,0 +1,568 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: fuckit;
+    src: url(alternate-gothic-cond-atf-bold.otf);
+}
+.foto0{
+    height: 320mm;
+    
+ }
+h1{
+    font-family: fuckit;
+}
+
+.pagina{
+    background-color: rgb(229, 151, 151);
+    height: 320mm;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.fondo{
+    background-color: rgb(255, 255, 255);
+    height: 320mm;
+    width: 210mm;
+    line-height: 0.3;
+    margin-top: 0;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.foto{
+height: 250px;
+width: 150px;
+margin-left: 20%;
+cursor: pointer;
+}
+.texto1{
+    color: #00b9a8;
+    font-size: 220%;
+    text-align: right;
+    margin-right: 8%;
+    margin-top: 28%;
+    letter-spacing: 10px;
+    height: 35%;
+}
+.texto2{
+    margin-right: 20%;
+    letter-spacing: 0px;
+}
+.fecha{
+    font-size: large;
+    font-weight: 900;
+}
+.fechan{
+    color: black;
+    font-size: large;
+    font-weight: 200;
+}
+.texto3{
+    margin-right: 42%;
+    letter-spacing: 0px;
+    margin-top: 1%;
+}
+.factura{
+    font-size: large;
+    font-weight: 900;
+}
+.facturan{
+    color: black;
+    font-size: large;
+    font-weight: 200;
+}
+.texto4{
+   color: #00b9a8;
+   font-size: 130%;
+   margin-left: 15%;
+   height: 25%;
+   margin-top: 15%;
+}
+.texto5{
+    color: black;
+    
+}
+.texto6{
+    height: 32%;
+    color: #00b9a8;
+    text-align: center;
+    margin-top: 34%;
+}
+.texto7{
+    color: black;
+}
+.texto8{
+    margin-top: 4%;
+    color: black;
+}
+table{
+    border: black 1px solid;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.texto9{
+    margin-left: 10%;
+    margin-top: 18%;
+}
+.texto10{
+    color: #00b9a8;
+    font-size: 200%;
+    margin-left: 13%;
+    margin-bottom: 0%;
+    margin-top: 14%;
+}
+.final{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.final1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+hr{
+    transform: rotate(180deg);
+    background-color: #00b9a8;
+    height: 5px;
+    width: 90%;
+}
+.tablita{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.espacio{
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.tabla {
+    height: auto;
+    padding: 2%;
+    margin-top: 4%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.8;
+}
+
+.tabla tr:not(:first-child) td {
+    text-align: center;
+}
+
+.tabla tr td:first-child {
+    text-align: left;
+}
+
+.tabla tr.divisoria td {
+    border-top: 2px solid grey;
+}
+
+.tabla tr.encabezado {
+    background-color: rgb(74, 202, 167);
+}
+
+.tabla tr.gris {
+    background-color: rgb(171, 171, 171);
+}
+
+.tabla td {
+    padding: 1%;
+}
+
+.tabla th {
+    padding: 1%;
+    color: white;
+}
+
+@media(max-width:750px)
+{
+    .pagina{
+        background-color: rgb(229, 151, 151);
+        height: 230mm;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .fondo{
+        background-color: rgb(255, 255, 255);
+        height: 230mm;
+        width: 210mm;
+        line-height: 0.3;
+        margin-top: 0;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto4{
+        color: #00b9a8;
+        font-size: 110%;
+        margin-left: 15%;
+        height: 25%;
+        margin-top: 15%;
+     }
+     .texto5{
+         color: black;
+     }
+     .texto6{
+        height: 32%;
+        color: #00b9a8;
+        text-align: center;
+        margin-top: 24%;
+    }
+    .tabla {
+        width: 50%;
+        height: auto;
+        padding: 2%;
+        margin-top: 4%;
+        border-collapse: separate;
+        border-spacing: 0;
+        font-size: 85%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-right: 5%;
+        line-height: 01;
+    }
+    .texto10{
+        color: #00b9a8;
+        font-size: 175%;
+        margin-left: 13%;
+        margin-bottom: 0%;
+        margin-top: 14%;
+    }
+}
+@media(max-width:700px)
+{
+    .texto1{
+        color: #00b9a8;
+        font-size: 200%;
+        text-align: right;
+        margin-right: 8%;
+        margin-top: 28%;
+        letter-spacing: 10px;
+        height: 35%;
+    }
+
+    .texto5{
+        color: black;
+        font-size: 90%;
+    }
+    .texto9{
+        font-size: 85%;
+            margin-left: 10%;
+            margin-top: 18%;
+        }
+    }
+
+@media(max-width:620px)
+{
+    .foto{
+        height: 225px;
+        width: 125px;
+        margin-left: 20%;
+    }
+    .texto1{
+        color: #00b9a8;
+        font-size: 170%;
+        text-align: right;
+        margin-right: 8%;
+        margin-top: 28%;
+        letter-spacing: 10px;
+        height: 35%;
+    }
+    .texto2{
+        margin-right: 20%;
+        letter-spacing: 0px;
+    }
+    .fecha{
+        font-size: 60%;
+        font-weight: 900;
+    }
+    .fechan{
+        color: black;
+        font-size: 60%;
+        font-weight: 200;
+    }
+    .texto3{
+        margin-right: 42%;
+        letter-spacing: 0px;
+        margin-top: 1%;
+    }
+    .factura{
+        font-size: 60%;
+        font-weight: 900;
+    }
+    .facturan{
+        color: black;
+        font-size: 60%;
+        font-weight: 200;
+    }
+    .tabla {
+        width: 50%;
+        height: auto;
+        padding: 2%;
+        margin-top: 4%;
+        border-collapse: separate;
+        border-spacing: 0;
+        font-size: 65%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 01;
+    }
+    .texto10{
+        color: #00b9a8;
+        font-size: 150%;
+        margin-left: 13%;
+        margin-bottom: 0%;
+        margin-top: 14%;
+    }
+    .pagina{
+        background-color: rgb(229, 151, 151);
+        height: 180mm;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .fondo{
+        background-color: rgb(255, 255, 255);
+        height: 180mm;
+        width: 210mm;
+        line-height: 0.3;
+        margin-top: 0;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto4{
+        color: #00b9a8;
+        font-size: 90%;
+        margin-left: 15%;
+        height: 25%;
+        margin-top: 15%;
+     }
+     .texto5{
+         color: black;
+         font-size: 75%;
+     }
+     .texto9{
+        font-size: 70%;
+            margin-left: 10%;
+            margin-top: 18%;
+        }
+
+}
+@media(max-width:520px)
+{
+    .texto6{
+        height: 32%;
+        color: #00b9a8;
+        text-align: center;
+        margin-top: 24%;
+        font-size: 75%;
+    }
+
+    
+    .texto7{
+        color: black;
+    }
+    .texto8{
+        margin-top: 4%;
+        color: black;
+    }
+    .texto1{
+        color: #00b9a8;
+        font-size: 145%;
+        text-align: right;
+        margin-right: 8%;
+        margin-top: 28%;
+        letter-spacing: 10px;
+        height: 35%;
+    }
+    .pagina{
+        background-color: rgb(229, 151, 151);
+        height: 135mm;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .fondo{
+        background-color: rgb(255, 255, 255);
+        height: 135mm;
+        width: 210mm;
+        line-height: 0.3;
+        margin-top: 0;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto10{
+        color: #00b9a8;
+        font-size: 125%;
+        margin-left: 13%;
+        margin-bottom: 0%;
+        margin-top: 14%;
+    }
+    .texto9{
+        font-size: 60%;
+            margin-left: 10%;
+            margin-top: 18%;
+        }
+        .final1{
+            font-size: 65%;
+        }
+}
+@media(max-width:460px)
+{
+    .foto{
+        height: 125px;
+        width: 75px;
+        margin-left: 20%;
+    }
+    .texto1{
+        color: #00b9a8;
+        font-size: 110%;
+        text-align: right;
+        margin-right: 8%;
+        margin-top: 28%;
+        letter-spacing: 10px;
+        height: 35%;
+    }
+    .texto2{
+        margin-right: 20%;
+        letter-spacing: 0px;
+    }
+    .fecha{
+        font-size: 60%;
+        font-weight: 900;
+    }
+    .fechan{
+        color: black;
+        font-size: 60%;
+        font-weight: 200;
+    }
+    .texto3{
+        margin-right: 42%;
+        letter-spacing: 0px;
+        margin-top: 1%;
+    }
+    .factura{
+        font-size: 60%;
+        font-weight: 900;
+    }
+    .facturan{
+        color: black;
+        font-size: 60%;
+        font-weight: 200;
+    }
+
+    .tabla {
+        width: 60%;
+        height: auto;
+        padding: 2%;
+        margin-top: 4%;
+        border-collapse: separate;
+        border-spacing: 0;
+        font-size: 65%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 01;
+    }
+
+    .texto6{
+        height: 32%;
+        color: #00b9a8;
+        text-align: center;
+        margin-top: 34%;
+        font-size: 65%;
+    }
+    .texto7{
+        color: black;
+    }
+    .texto8{
+        margin-top: 4%;
+        color: black;
+    }
+
+    .texto10{
+        color: #00b9a8;
+        font-size: 100%;
+        margin-left: 13%;
+        margin-bottom: 0%;
+        margin-top: 14%;
+    }
+    .texto9{
+        font-size: 58%;
+            margin-left: 10%;
+            margin-top: 18%;
+        }
+
+        .pagina{
+            background-color: rgb(229, 151, 151);
+            height: 50mm;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+        }
+        .fondo{
+            background-color: rgb(255, 255, 255);
+            height: 50mm;
+            width: 170mm;
+            line-height: 0.3;
+            margin-top: 0;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .texto4{
+            color: #00b9a8;
+            font-size: 70%;
+            margin-left: 15%;
+            height: 25%;
+            margin-top: 15%;
+         }
+         .texto5{
+             color: black;
+             font-size: 65%;
+         }
+         .foto0{
+            height: 200mm;
+         }
+}
+@media(max-width:420px)
+{
+    .pagina{
+        background-color: rgb(229, 151, 151);
+        height: 20mm;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .fondo{
+        background-color: rgb(255, 255, 255);
+        height: 20mm;
+        width: 170mm;
+        line-height: 0.3;
+        margin-top: 0;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .foto0{
+        height: 272mm;
+     
+     }
+
+
+}
+
+

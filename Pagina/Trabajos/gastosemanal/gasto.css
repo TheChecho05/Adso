@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    height: auto;
+}
+.Fondo{
+    background-color: blanchedalmond;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.frame1{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+}
+button{
+    background: #f93301;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.button{
+    background: #f93301;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.contenedor{
+    background-color: white;
+    width: 70%;
+    height: auto;
+    border-radius: 5%;
+    border: 5px black solid;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+.dentro1{
+    text-align: left;
+    margin-left: 10%;
+}
+
+.div0{
+    font-size: 150%;
+    color: red;
+    margin-top: 5%;
+}
+.div-presupuesto{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px rgb(61, 54, 54) solid;
+    text-align: left;
+    padding: 10px;
+    font-size: 150%;
+    background-color: lightblue;
+}
+.div-presupuesto p {
+    margin: 10px;
+}
+.div-restante{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px rgb(61, 54, 54) solid;
+    text-align: left;
+    padding: 10px;
+    font-size: 150%;
+    background-color: lightblue;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.div-restante p{
+    margin: 10px;
+}
+.gasto{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px rgb(61, 54, 54) solid;
+    text-align: left;
+    padding: 10px;
+    font-size: 150%;
+    background-color: lightblue;
+    margin-bottom: 3%;
+    Display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+
+@media(max-width:850px){
+    .div-presupuesto{
+    font-size: 130%;
+    }
+    .div-restante{
+    font-size: 140%;
+    }
+    .gasto{
+    font-size: 140%;
+    }
+}
+@media(max-width:700px){
+    .div-presupuesto{
+    font-size: 110%;
+    width: 70%;
+    height: 30px;
+    border-radius: 4px;
+    }
+    .div-restante{
+    font-size: 120%;
+    width: 70%;
+    height: 30px;
+    border-radius: 4px;
+    }
+    .gasto{
+    font-size: 140%;
+    width: 70%;
+    height: 30px;
+    border-radius: 4px;
+    }
+    .frame1{
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 120%;
+        margin: 0%;
+    }
+
+}

@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    background-color: yellow;
+}
+.regresar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+  width: auto;
+  background: #dae4dc;
+  padding: 10px;
+  margin: 0;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(7, 7, 7);
+  cursor: pointer;
+}
+.boto1{
+    width: auto;
+    background: #e05649;
+    padding: 12px;
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    }
+.fondo{
+    height: auto;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);;
+    justify-content: center; 
+    align-items: center;
+}
+.mesnu{
+    background-color: rgb(201, 201, 201);
+    height: 325px;
+    width: 270px;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 5%;
+
+}
+.mesno{
+    /*background-color: #ef6d6d;*/
+    background-image: url(satoru-gojo.jpg);
+
+    height: 140px;
+    width: 270px;
+
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+
+    border-radius: 10px;
+    color: rgb(32, 66, 216);
+}
+.graydays{
+    color: red;
+}
+.a{
+    margin: 0;
+    font-size: 400%;
+    margin-left: 5%;
+}
+.b{
+    margin: 0;
+    margin-left: 5%;
+    font-size: 250%;
+}
+table {
+    width: 270px;
+    height: 180px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    width: 14.28%; 
+    height: 14.28%; 
+}
+
+@media(max-width:1200px)
+{
+    .mesnu{
+        background-color: rgb(201, 201, 201);
+        height: 250px;
+        width: 170px;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
+    table {
+        width: 170px;
+        height: 130px;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 80%;
+    }
+    th, td {
+            width: 10%; 
+            height: 10%; 
+        }
+    
+    .mesno{
+        /*background-color: #ef6d6d;*/
+        background-image: url(satoru-gojo.jpg);
+    
+        height: 120px;
+        width: 170px;
+    
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center;
+    
+        border-radius: 10px;
+        color: rgb(234, 0, 234);
+    }
+    .a{
+        margin: 0;
+        font-size: 350%;
+        margin-left: 5%;
+    }
+    .b{
+        margin: 0;
+        margin-left: 5%;
+        font-size: 210%;
+    }
+}
+@media(max-width:800px)
+{
+    .mesnu{
+        background-color: rgb(201, 201, 201);
+        height: 250px;
+        width: 170px;
+        margin-left: 10%;
+        border-radius: 10px;
+        margin-top: 5%;
+    }
+    .fondo{
+        height: 150vh;
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);;
+        justify-content: center; 
+        align-items: center;
+    }
+    .a{
+        margin: 0;
+        font-size: 300%;
+        margin-left: 5%;
+    }
+    .b{
+        margin: 0;
+        margin-left: 5%;
+        font-size: 200%;
+    }
+}
+@media(max-width:400px)
+{
+    .fondo{
+        height: 150vh;
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);;
+        justify-content: center; 
+        align-items: center;
+    }  
+    .mesnu{
+        background-color: rgb(201, 201, 201);
+        height: 250px;
+        width: 170px;
+        margin-left: 10%;
+        border-radius: 10px;
+        margin-top: 5%;
+    }
+}
+@media(max-width:00px)
+{
+    
+}

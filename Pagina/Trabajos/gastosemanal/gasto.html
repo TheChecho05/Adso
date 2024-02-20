@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gasto.css">
+    <script src="gasto.js"></script>
+</head>
+<body>
+    <div class="Fondo">
+        <input type="button" class="button" onclick="regresar()" value="Regresar al Inicio">
+        <h1>Gasto Semanal</h1>
+            <div class="contenedor">
+                <div class="lado1">
+                    <h1 class="texto">Añadir gastos</h1>
+                        <div class="dentro1">
+                            <p id="titulopresupuesto">Presupuesto:</p>
+                            <input type="number" class="frame1" id="presupuesto" placeholder="Digite su presupuesto" required>
+                            <br>
+                            <button type="submit" id="presupuestoa" onclick="crearDiv()">Ingresar</button>
+                            <p>Gasto:</p>
+                            <input type="text" class="frame1" id="bloquear1" disabled placeholder="Nombre del Gasto" required>
+                            <p>Precio:</p>
+                            <input type="number" class="frame1" id="bloquear2" disabled placeholder="Precio del gasto" required>
+                            <br>
+                            <button type="submit" id="bloquear3" disabled onclick="pagos()">Agregar</button>
+                            <br>
+                            <div id="div0" class="div0"></div>
+                        </div>    
+                </div>
+                <div class="lado2">
+                    <h1 class="texto">Listado</h1>
+                        
+                </div>
+                
+                
+            </div>
+    </div>
+</body>
+</html>
